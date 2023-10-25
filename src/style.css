@@ -1,0 +1,50 @@
+style.css
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #cbf5db;
+    padding: 15px;
+    text-align: center;
+}
+.row {
+    border: 1px solid #787272;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.col-md-3 {
+    padding: 15px;
+    border-right: 1px solid #787272;
+}
+
+.col-md-3:last-child {
+    border-right: none;
+}
+
+.news-item h4 {
+    font-size: 1.2rem;
+}
+
+.news-item p {
+    font-size: 1rem;
+}
+
+.news-item a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+
+.no-result {
+    font-style: italic;
+    color: #888;
+}
+
